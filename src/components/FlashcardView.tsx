@@ -1,3 +1,4 @@
+
 "use client";
 
 import type { Flashcard } from '@/types';
@@ -54,8 +55,8 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
           )}
           style={{ transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)' }}
         >
-          <CardContent className="p-0 w-full h-full flex flex-col justify-center items-center">
-            <div className="relative w-full h-3/4 mb-4 rounded-lg overflow-hidden">
+          <CardContent className="p-0 w-full h-full flex flex-col"> {/* Removed justify-center items-center */}
+            <div className="relative w-full flex-1 mb-4 rounded-lg overflow-hidden"> {/* Changed h-3/4 to flex-1 */}
               <Image
                 src={card.imageSrc}
                 alt={card.imageAlt}
@@ -66,7 +67,7 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
                 data-ai-hint={card.dataAiHint}
               />
             </div>
-            <div className="text-center">
+            <div className="text-center flex-shrink-0"> {/* Added flex-shrink-0 */}
               <p className="text-sm text-muted-foreground">Tap card to reveal</p>
               {!showHint && (
                  <Button variant="ghost" size="sm" onClick={(e) => { e.stopPropagation(); setShowHint(true);}} className="mt-2 text-xs text-accent hover:text-accent-foreground">
