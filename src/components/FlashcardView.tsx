@@ -50,14 +50,14 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
         {/* Front of the card */}
         <Card 
           className={cn(
-            "absolute w-full h-full backface-hidden overflow-hidden flex flex-col p-6 transition-transform duration-700 ease-in-out", // Removed justify-center items-center
+            "absolute w-full h-full backface-hidden overflow-hidden flex flex-col p-6 transition-transform duration-700 ease-in-out",
             { "rotate-y-180": isFlipped }
           )}
           style={{ transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)' }}
         >
           <CardContent className="p-0 w-full h-full flex flex-col">
-            {/* Set explicit height for image container */}
-            <div className="relative w-full h-[70%] mb-4 rounded-lg overflow-hidden">
+            {/* Image container takes up available space */}
+            <div className="relative w-full flex-1 mb-4 rounded-lg overflow-hidden">
               <Image
                 src={card.imageSrc}
                 alt={card.imageAlt}
@@ -68,7 +68,7 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
                 data-ai-hint={card.dataAiHint}
               />
             </div>
-            <div className="text-center flex-shrink-0 mt-auto"> {/* mt-auto to push to bottom if space available */}
+            <div className="text-center flex-shrink-0">
               <p className="text-sm text-muted-foreground">Tap card to reveal</p>
               {!showHint && (
                  <Button variant="ghost" size="sm" onClick={(e) => { e.stopPropagation(); setShowHint(true);}} className="mt-2 text-xs text-accent hover:text-accent-foreground">
