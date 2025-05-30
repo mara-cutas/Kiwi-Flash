@@ -1,8 +1,9 @@
+
 import type { Flashcard } from '@/types';
 
-export const mockFlashcards: Flashcard[] = [
+const baseFlashcards: Flashcard[] = [
   {
-    id: '1',
+    id: 'base-1',
     imageSrc: 'https://placehold.co/600x400.png',
     imageAlt: 'Kiwi Bird',
     dataAiHint: 'kiwi bird',
@@ -16,7 +17,7 @@ export const mockFlashcards: Flashcard[] = [
     isFlagged: false,
   },
   {
-    id: '2',
+    id: 'base-2',
     imageSrc: 'https://placehold.co/600x400.png',
     imageAlt: 'Silver Fern',
     dataAiHint: 'silver fern',
@@ -30,7 +31,7 @@ export const mockFlashcards: Flashcard[] = [
     isFlagged: false,
   },
   {
-    id: '3',
+    id: 'base-3',
     imageSrc: 'https://placehold.co/600x400.png',
     imageAlt: 'Tui Bird',
     dataAiHint: 'tui bird',
@@ -44,7 +45,7 @@ export const mockFlashcards: Flashcard[] = [
     isFlagged: false,
   },
   {
-    id: '4',
+    id: 'base-4',
     imageSrc: 'https://placehold.co/600x400.png',
     imageAlt: 'Pohutukawa Tree',
     dataAiHint: 'pohutukawa tree',
@@ -58,7 +59,7 @@ export const mockFlashcards: Flashcard[] = [
     isFlagged: false,
   },
   {
-    id: '5',
+    id: 'base-5',
     imageSrc: 'https://placehold.co/600x400.png',
     imageAlt: 'Hectors Dolphin',
     dataAiHint: 'hectors dolphin',
@@ -72,13 +73,13 @@ export const mockFlashcards: Flashcard[] = [
     isFlagged: false,
   },
   {
-    id: '6',
+    id: 'base-6',
     imageSrc: 'https://placehold.co/600x400.png',
     imageAlt: 'Kauri Tree',
     dataAiHint: 'kauri tree',
     name: 'Kauri Tree',
     facts: [
-      'One of the world\'s mightiest trees, growing to over 50 meters tall with trunk girths up to 16 meters.',
+      "One of the world's mightiest trees, growing to over 50 meters tall with trunk girths up to 16 meters.",
       'Ancient conifers native to New Zealand, some living for over 2,000 years.',
       'Valued for its high-quality timber and kauri gum (a resin).',
       'Currently threatened by kauri dieback disease.',
@@ -86,13 +87,13 @@ export const mockFlashcards: Flashcard[] = [
     isFlagged: false,
   },
   {
-    id: '7',
+    id: 'base-7',
     imageSrc: 'https://placehold.co/600x400.png',
     imageAlt: 'Kea Parrot',
     dataAiHint: 'kea parrot',
     name: 'Kea',
     facts: [
-      'The world\'s only alpine parrot, found in the mountainous regions of the South Island.',
+      "The world's only alpine parrot, found in the mountainous regions of the South Island.",
       'Known for its intelligence, curiosity, and playful (often destructive) behavior.',
       'Has olive-green plumage with brilliant orange underwings.',
       'An endangered species facing threats from predators and human conflict.',
@@ -100,3 +101,22 @@ export const mockFlashcards: Flashcard[] = [
     isFlagged: false,
   },
 ];
+
+export const mockFlashcards: Flashcard[] = [];
+const targetCardCount = 50;
+
+for (let i = 0; i < targetCardCount; i++) {
+  const baseCardIndex = i % baseFlashcards.length;
+  const baseCard = baseFlashcards[baseCardIndex];
+  const iteration = Math.floor(i / baseFlashcards.length) + 1;
+
+  mockFlashcards.push({
+    ...baseCard,
+    id: `${baseCard.id}-${iteration}-${i}`, // Ensure unique ID
+    name: iteration > 1 ? `${baseCard.name} #${iteration}` : baseCard.name, // Add a number if it's not the first cycle
+    // Facts can remain the same or be slightly altered if needed, for now, keep them same
+    facts: [...baseCard.facts], // Create a new array for facts
+    isFlagged: false, // Default to not flagged
+    // imageSrc and imageAlt can remain the same
+  });
+}
