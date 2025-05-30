@@ -50,14 +50,14 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
         {/* Front of the card */}
         <Card 
           className={cn(
-            "absolute w-full h-full backface-hidden overflow-hidden transition-transform duration-700 ease-in-out",
+            "absolute w-full h-full backface-hidden transition-transform duration-700 ease-in-out", // Removed overflow-hidden
             { "rotate-y-180": isFlipped }
           )}
           style={{ transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)' }}
         >
-          <CardContent className="p-4 w-full h-full flex flex-col"> {/* Added p-4, kept flex flex-col */}
+          <CardContent className="p-4 w-full h-full flex flex-col">
             {/* Image container takes up available space */}
-            <div className="relative w-full flex-1 rounded-lg overflow-hidden"> {/* Removed mb-4 */}
+            <div className="relative w-full flex-1 rounded-lg overflow-hidden">
               <Image
                 src={card.imageSrc}
                 alt={card.imageAlt}
@@ -68,7 +68,7 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
                 data-ai-hint={card.dataAiHint}
               />
             </div>
-            <div className="text-center flex-shrink-0 mt-4"> {/* Added mt-4 */}
+            <div className="text-center flex-shrink-0 mt-4">
               <p className="text-sm text-muted-foreground">Tap card to reveal</p>
               {!showHint && (
                  <Button variant="ghost" size="sm" onClick={(e) => { e.stopPropagation(); setShowHint(true);}} className="mt-2 text-xs text-accent hover:text-accent-foreground">
@@ -85,12 +85,12 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
         {/* Back of the card */}
         <Card
           className={cn(
-            "absolute w-full h-full backface-hidden overflow-hidden flex flex-col justify-start items-center transition-transform duration-700 ease-in-out", 
+            "absolute w-full h-full backface-hidden flex flex-col justify-start items-center transition-transform duration-700 ease-in-out", // Removed overflow-hidden
             { "rotate-y-0": isFlipped } 
           )}
            style={{ transform: isFlipped ? 'rotateY(0deg)' : 'rotateY(-180deg)' }}
         >
-          <CardContent className="p-4 md:p-6 w-full h-full flex flex-col text-left overflow-y-auto"> {/* Added p-4 md:p-6 */}
+          <CardContent className="p-4 md:p-6 w-full h-full flex flex-col text-left overflow-y-auto">
             <h2 className="text-2xl md:text-3xl font-bold text-primary mb-3 md:mb-4 text-center">{card.name}</h2>
             <ul className="space-y-2 md:space-y-3 text-sm md:text-base text-card-foreground">
               {card.facts.map((fact, index) => {
@@ -140,4 +140,3 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
     </div>
   );
 }
-

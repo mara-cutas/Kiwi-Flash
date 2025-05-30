@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -27,7 +28,7 @@ body {
     --muted: 127 30% 85%; /* Muted green */
     --muted-foreground: 125 35% 25%; /* Darker muted text */
 
-    --accent: 46 49% 43%; /* #A68B3A - Earthy yellow-brown */
+    --accent: 24 71% 58%; /* Deep Terracotta Orange */
     --accent-foreground: 0 0% 100%; /* White text on accent */
 
     --destructive: 0 84.2% 60.2%;
@@ -49,14 +50,14 @@ body {
     --sidebar-foreground: 125 35% 15%;
     --sidebar-primary: 125 35% 31%;
     --sidebar-primary-foreground: 127 50% 97%;
-    --sidebar-accent: 46 49% 43%;
-    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-accent: 24 71% 58%; /* Deep Terracotta Orange */
+    --sidebar-accent-foreground: 0 0% 100%; /* White */
     --sidebar-border: 125 30% 75%;
     --sidebar-ring: 125 35% 31%;
   }
 
   .dark {
-    /* Kiwi Flash Theme - Dark Mode (Example, can be refined) */
+    /* Kiwi Flash Theme - Dark Mode */
     --background: 125 20% 10%; /* Dark green */
     --foreground: 127 50% 90%; /* Light green text */
 
@@ -75,8 +76,8 @@ body {
     --muted: 125 20% 25%;
     --muted-foreground: 127 40% 70%;
 
-    --accent: 46 49% 53%; /* Lighter accent for dark mode */
-    --accent-foreground: 125 20% 10%;
+    --accent: 24 65% 65%; /* Lighter Terracotta Orange for dark mode */
+    --accent-foreground: 0 0% 10%; /* Near Black text on accent */
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
@@ -90,8 +91,8 @@ body {
     --sidebar-foreground: 127 50% 90%;
     --sidebar-primary: 125 35% 45%;
     --sidebar-primary-foreground: 125 20% 10%;
-    --sidebar-accent: 46 49% 53%;
-    --sidebar-accent-foreground: 125 20% 10%;
+    --sidebar-accent: 24 65% 65%; /* Lighter Terracotta Orange for dark mode */
+    --sidebar-accent-foreground: 0 0% 10%; /* Near Black */
     --sidebar-border: 125 20% 25%;
     --sidebar-ring: 125 35% 45%;
   }
