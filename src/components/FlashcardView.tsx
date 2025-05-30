@@ -50,19 +50,18 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
         {/* Front of the card */}
         <Card 
           className={cn(
-            "absolute w-full h-full backface-hidden transition-transform duration-700 ease-in-out",
-            { "rotate-y-180": isFlipped }
+            "absolute w-full h-full backface-hidden transition-transform duration-700 ease-in-out"
           )}
           style={{ transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)' }}
         >
           <CardContent className="p-4 md:p-6 w-full h-full flex flex-col">
             {/* Image container takes up available space */}
-            <div className="relative w-full flex-1 rounded-lg overflow-hidden min-h-0"> {/* Added min-h-0 */}
+            <div className="relative w-full flex-1 rounded-lg overflow-hidden min-h-0">
               <Image
                 src={card.imageSrc}
                 alt={card.imageAlt}
                 fill
-                style={{ objectFit: 'cover' }}
+                objectFit="cover" // Use objectFit prop
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 priority={currentIndex === 0} // Prioritize first image
                 data-ai-hint={card.dataAiHint}
@@ -85,8 +84,7 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
         {/* Back of the card */}
         <Card
           className={cn(
-            "absolute w-full h-full backface-hidden flex flex-col justify-start items-center transition-transform duration-700 ease-in-out",
-            { "rotate-y-0": isFlipped } 
+            "absolute w-full h-full backface-hidden flex flex-col justify-start items-center transition-transform duration-700 ease-in-out"
           )}
            style={{ transform: isFlipped ? 'rotateY(0deg)' : 'rotateY(-180deg)' }}
         >
