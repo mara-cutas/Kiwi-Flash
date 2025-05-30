@@ -614,7 +614,7 @@ export const mockFlashcards: Flashcard[] = [
       'A small, gregarious songbird endemic to the North Island and some offshore islands.',
       'Males have a completely white head and breast, while females are more grey-brown.',
       'Often seen in flocks, foraging for insects in the forest canopy.',
-      'Closely related to the South Island\'s Yellowhead (Mohua).',
+      "Closely related to the South Island's Yellowhead (Mohua).",
     ],
     isFlagged: false,
   },
@@ -703,3 +703,5 @@ export const mockFlashcards: Flashcard[] = [
     isFlagged: false,
   },
 ];
+
+    
