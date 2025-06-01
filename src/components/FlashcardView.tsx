@@ -55,15 +55,14 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
           style={{ transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)' }}
         >
           <CardContent className="p-4 md:p-6 w-full h-full flex flex-col">
-            {/* Image container takes up available space */}
             <div className="relative w-full flex-1 rounded-lg overflow-hidden min-h-0">
               <Image
-                src={card.imageSrc}
+                src={card.imageSrc || `https://placehold.co/600x400.png`}
                 alt={card.imageAlt}
                 fill
-                objectFit="cover" // Use objectFit prop
+                objectFit="contain" 
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                priority={currentIndex === 0} // Prioritize first image
+                priority={currentIndex === 0} 
                 data-ai-hint={card.dataAiHint}
               />
             </div>
