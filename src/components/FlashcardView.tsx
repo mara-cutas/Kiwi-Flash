@@ -59,6 +59,7 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
               {card.imageSrc.map((src, index) => (
                 <div key={index} className="relative flex-1 min-h-0">
                   <Image
+                    key={src}
                     src={src || `https://placehold.co/600x400.png`}
                     alt={`${card.imageAlt} (${index + 1})`}
                     fill
