@@ -17,7 +17,7 @@ export function CardImageView({ src, alt }: CardImageViewProps) {
   return (
     <div className="relative flex-1 min-h-0 rounded-lg overflow-hidden bg-muted/20">
       {isLoading && (
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="absolute inset-0 flex items-center justify-center z-10">
           <Loader2 className="w-8 h-8 text-primary animate-spin" />
         </div>
       )}
@@ -27,7 +27,7 @@ export function CardImageView({ src, alt }: CardImageViewProps) {
         alt={alt}
         fill
         className={cn(
-          "object-contain transition-opacity duration-500 rounded-lg",
+          "object-contain transition-opacity duration-500",
           isLoading ? "opacity-0" : "opacity-100"
         )}
         sizes="(max-width: 768px) 50vw, (max-width: 1200px) 25vw, 16vw"
