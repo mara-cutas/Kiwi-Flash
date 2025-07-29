@@ -3,11 +3,11 @@
 
 import type { Flashcard } from '@/types';
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Flag, RotateCcw, CheckCircle, ListChecks, Leaf, Footprints, Sprout } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { CardImageView } from './CardImageView';
 
 interface FlashcardViewProps {
   card: Flashcard;
@@ -21,13 +21,13 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
   const [showHint, setShowHint] = useState(false);
 
   useEffect(() => {
-    setIsFlipped(false); // Reset flip state when card changes
-    setShowHint(false); // Reset hint state
+    setIsFlipped(false); 
+    setShowHint(false); 
   }, [card.id]);
 
   const handleFlip = () => {
     setIsFlipped(!isFlipped);
-    if (!isFlipped) { // If flipping to back, hide hint
+    if (!isFlipped) { 
         setShowHint(false);
     }
   };
@@ -42,7 +42,7 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
       <div 
         className={cn(
           "relative rounded-xl shadow-2xl transition-transform duration-700 ease-in-out cursor-pointer",
-          "min-h-[400px] md:min-h-[500px]" // Ensure consistent height
+          "min-h-[400px] md:min-h-[500px]" 
         )}
         style={{ transformStyle: 'preserve-3d' }}
         onClick={handleFlip}
@@ -55,20 +55,9 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
           style={{ transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)' }}
         >
           <CardContent className="p-4 md:p-6 w-full h-full flex flex-col">
-            <div className="flex-1 flex flex-row gap-2 w-full h-full rounded-lg overflow-hidden">
-              {card.imageSrc.map((src, index) => (
-                <div key={index} className="relative flex-1 min-h-0">
-                  <Image
-                    key={src}
-                    src={src || `https://placehold.co/600x400.png`}
-                    alt={`${card.imageAlt} (${index + 1})`}
-                    fill
-                    className="object-contain"
-                    sizes="(max-width: 768px) 50vw, (max-width: 1200px) 25vw, 16vw"
-                    priority={currentIndex === 0} 
-                    data-ai-hint={card.dataAiHint}
-                  />
-                </div>
+            <div className="flex-1 flex flex-row gap-2 w-full h-full rounded-lg">
+              {card.imageSrc.map((src) => (
+                <CardImageView key={src} src={src} alt={card.imageAlt} />
               ))}
             </div>
             <div className="text-center flex-shrink-0 mt-4">
@@ -115,7 +104,7 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
             variant={card.isFlagged ? "default" : "outline"}
             size="lg"
             onClick={(e) => {
-            e.stopPropagation(); // Prevent card flip if button is on the card face area
+            e.stopPropagation(); 
             onFlagToggle(card.id);
             }}
             className="group"
