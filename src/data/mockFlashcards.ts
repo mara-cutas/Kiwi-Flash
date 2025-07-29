@@ -4,7 +4,7 @@ import type { Flashcard } from '@/types';
 export const mockFlashcards: Flashcard[] =[
   {
     id: 'flora-fauna-1',
-    imageSrc: '/images/kiwi.jpg',
+    imageSrc: "/images/Kiwi Bird.jpg",
     imageAlt: 'Kiwi Bird',
     dataAiHint: 'kiwi bird',
     name: 'Kiwi',
@@ -18,7 +18,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-2',
-    imageSrc: '/images/silver-fern.jpg',
+    imageSrc: "/images/Silver fern.jpg",
     imageAlt: 'Silver Fern (Ponga)',
     dataAiHint: 'silver fern',
     name: 'Silver Fern (Ponga)',
@@ -32,7 +32,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-3',
-    imageSrc: '/images/tui.jpg',
+    imageSrc: "/images/Tūī bird.jpg",
     imageAlt: 'Tūī',
     dataAiHint: 'tui bird',
     name: 'Tūī',
@@ -46,7 +46,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-4',
-    imageSrc: '/images/pohutukawa.jpg',
+    imageSrc: "/images/Pōhutukawa tree.jpg",
     imageAlt: 'Pōhutukawa',
     dataAiHint: 'pohutukawa tree',
     name: 'Pōhutukawa',
@@ -60,7 +60,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-5',
-    imageSrc: '/images/hectors-dolphin.jpg',
+    imageSrc: "/images/Hector's Dolphin.jpg",
     imageAlt: "Hector's Dolphin",
     dataAiHint: 'hectors dolphin',
     name: "Hector's Dolphin",
@@ -74,7 +74,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-6',
-    imageSrc: '/images/kauri-tree.jpg',
+    imageSrc: "/images/Kauri Tree.jpeg",
     imageAlt: 'Kauri Tree',
     dataAiHint: 'kauri tree',
     name: 'Kauri Tree',
@@ -88,7 +88,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-7',
-    imageSrc: '/images/kea.jpg',
+    imageSrc: "/images/Kea parrot.jpg",
     imageAlt: 'Kea',
     dataAiHint: 'kea parrot',
     name: 'Kea',
@@ -102,7 +102,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-8',
-    imageSrc: '/images/morepork.jpg',
+    imageSrc: "/images/Morepork (Ruru) owl.jpg",
     imageAlt: 'Morepork (Ruru)',
     dataAiHint: 'morepork owl',
     name: 'Morepork (Ruru)',
@@ -116,7 +116,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-9',
-    imageSrc: '/images/weta.jpg',
+    imageSrc: "/images/Wētā insect.jpg",
     imageAlt: 'Wētā',
     dataAiHint: 'weta insect',
     name: 'Wētā',
@@ -130,7 +130,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-10',
-    imageSrc: '/images/tuatara.jpg',
+    imageSrc: "/images/Tuatara reptile.jpg",
     imageAlt: 'Tuatara',
     dataAiHint: 'tuatara reptile',
     name: 'Tuatara',
@@ -144,7 +144,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-11',
-    imageSrc: '/images/kakapo.jpg',
+    imageSrc: "/images/Kākāpō parrot.jpg",
     imageAlt: 'Kākāpō',
     dataAiHint: 'kakapo parrot',
     name: 'Kākāpō',
@@ -158,7 +158,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-12',
-    imageSrc: '/images/fantail.jpg',
+    imageSrc: "/images/Fantail (Pīwakawaka) bird.jpg",
     imageAlt: 'Fantail (Pīwakawaka)',
     dataAiHint: 'fantail bird',
     name: 'Fantail (Pīwakawaka)',
@@ -172,7 +172,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-13',
-    imageSrc: '/images/pukeko.jpg',
+    imageSrc: "/images/Pūkeko bird.jpg",
     imageAlt: 'Pūkeko',
     dataAiHint: 'pukeko bird',
     name: 'Pūkeko',
@@ -186,7 +186,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-14',
-    imageSrc: '/images/yellow-eyed-penguin.jpg',
+    imageSrc: "/images/Yellow-eyed Penguin (Hoiho).jpg",
     imageAlt: 'Yellow-eyed Penguin (Hoiho)',
     dataAiHint: 'yelloweyed penguin',
     name: 'Yellow-eyed Penguin (Hoiho)',
@@ -200,7 +200,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-15',
-    imageSrc: '/images/little-blue-penguin.jpg',
+    imageSrc: "/images/Little Blue Penguin (Kororā).jpg",
     imageAlt: 'Little Blue Penguin (Kororā)',
     dataAiHint: 'little penguin',
     name: 'Little Blue Penguin (Kororā)',
@@ -214,7 +214,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-16',
-    imageSrc: '/images/manuka.jpg',
+    imageSrc: "/images/Mānuka tree.jpg",
     imageAlt: 'Mānuka',
     dataAiHint: 'manuka tree',
     name: 'Mānuka',
@@ -228,7 +228,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-17',
-    imageSrc: '/images/kowhai.jpg',
+    imageSrc: "/images/Kōwhai tree.jpg",
     imageAlt: 'Kōwhai',
     dataAiHint: 'kowhai tree',
     name: 'Kōwhai',
@@ -242,7 +242,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-18',
-    imageSrc: '/images/harakeke.jpg',
+    imageSrc: "/images/Harakeke (New Zealand Flax).jpg",
     imageAlt: 'Harakeke (New Zealand Flax)',
     dataAiHint: 'harakeke flax',
     name: 'Harakeke (New Zealand Flax)',
@@ -256,7 +256,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-19',
-    imageSrc: '/images/cabbage-tree.jpg',
+    imageSrc: "/images/Cabbage Tree (Tī Kōuka).jpg",
     imageAlt: 'Cabbage Tree (Tī Kōuka)',
     dataAiHint: 'cabbage tree',
     name: 'Cabbage Tree (Tī Kōuka)',
@@ -270,7 +270,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-20',
-    imageSrc: '/images/nikau-palm.jpg',
+    imageSrc: "/images/Nīkau Palm.jpg",
     imageAlt: 'Nīkau Palm',
     dataAiHint: 'nikau palm',
     name: 'Nīkau Palm',
@@ -284,7 +284,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-21',
-    imageSrc: '/images/rimu.jpg',
+    imageSrc: "/images/Rimu tree.jpg",
     imageAlt: 'Rimu',
     dataAiHint: 'rimu tree',
     name: 'Rimu',
@@ -298,7 +298,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-22',
-    imageSrc: '/images/totara.jpg',
+    imageSrc: "/images/Tōtara tree.jpg",
     imageAlt: 'Tōtara',
     dataAiHint: 'totara tree',
     name: 'Tōtara',
@@ -312,7 +312,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-23',
-    imageSrc: '/images/matai.jpg',
+    imageSrc: "/images/Mataī tree.jpg",
     imageAlt: 'Mataī',
     dataAiHint: 'matai tree',
     name: 'Mataī',
@@ -326,7 +326,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-24',
-    imageSrc: '/images/kahikatea.jpg',
+    imageSrc: "/images/Kahikatea tree.jpg",
     imageAlt: 'Kahikatea',
     dataAiHint: 'kahikatea tree',
     name: 'Kahikatea',
@@ -340,7 +340,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-25',
-    imageSrc: '/images/nz-fur-seal.jpg',
+    imageSrc: "/images/New Zealand Fur Seal (Kekeno).jpg",
     imageAlt: 'New Zealand Fur Seal (Kekeno)',
     dataAiHint: 'fur seal',
     name: 'New Zealand Fur Seal (Kekeno)',
@@ -354,7 +354,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-26',
-    imageSrc: '/images/nz-sea-lion.jpg',
+    imageSrc: "/images/New Zealand Sea Lion (Rāpoka:Whakahao) 1.jpg",
     imageAlt: 'New Zealand Sea Lion (Rāpoka/Whakahao)',
     dataAiHint: 'sea lion',
     name: 'New Zealand Sea Lion (Rāpoka/Whakahao)',
@@ -368,7 +368,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-27',
-    imageSrc: '/images/longfin-eel.jpg',
+    imageSrc: "/images/Longfin Eel (Tuna).jpg",
     imageAlt: 'Longfin Eel (Tuna)',
     dataAiHint: 'longfin eel',
     name: 'Longfin Eel (Tuna)',
@@ -382,7 +382,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-28',
-    imageSrc: '/images/giant-kokopu.jpg',
+    imageSrc: "/images/Giant Kōkopu.jpg",
     imageAlt: 'Giant Kōkopu',
     dataAiHint: 'giant kokopu',
     name: 'Giant Kōkopu',
@@ -396,7 +396,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-29',
-    imageSrc: '/images/mudfish.jpg',
+    imageSrc: "/images/Mudfish (Waikaka).jpg",
     imageAlt: 'Mudfish (Waikaka)',
     dataAiHint: 'mudfish nz',
     name: 'Mudfish (Waikaka)',
@@ -410,7 +410,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-30',
-    imageSrc: '/images/hochstetters-frog.jpg',
+    imageSrc: "/images/Hochstetter's Frog.jpg",
     imageAlt: "Hochstetter's Frog",
     dataAiHint: 'hochstetters frog',
     name: "Hochstetter's Frog",
@@ -424,7 +424,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-31',
-    imageSrc: '/images/archeys-frog.jpg',
+    imageSrc: "/images/Archey's Frog.jpg",
     imageAlt: "Archey's Frog",
     dataAiHint: 'archeys frog',
     name: "Archey's Frog",
@@ -438,7 +438,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-32',
-    imageSrc: '/images/powelliphanta-snail.jpg',
+    imageSrc: "/images/Powelliphanta Snail.jpg",
     imageAlt: 'Powelliphanta Snail',
     dataAiHint: 'powelliphanta snail',
     name: 'Powelliphanta Snail',
@@ -452,7 +452,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-33',
-    imageSrc: '/images/peripatus.jpg',
+    imageSrc: "/images/Peripatus (Velvet Worm) 1.png",
     imageAlt: 'Peripatus (Velvet Worm)',
     dataAiHint: 'velvet worm',
     name: 'Peripatus (Velvet Worm)',
@@ -466,7 +466,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-34',
-    imageSrc: '/images/puriri-moth.jpg',
+    imageSrc: "/images/Pūriri Moth.jpg",
     imageAlt: 'Pūriri Moth',
     dataAiHint: 'puriri moth',
     name: 'Pūriri Moth',
@@ -480,7 +480,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-35',
-    imageSrc: '/images/monarch-butterfly.jpg',
+    imageSrc: "/images/Monarch Butterfly.jpg",
     imageAlt: 'Monarch Butterfly',
     dataAiHint: 'monarch butterfly',
     name: 'Monarch Butterfly',
@@ -494,7 +494,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-36',
-    imageSrc: '/images/red-admiral-butterfly.jpg',
+    imageSrc: "/images/Red Admiral Butterfly (Kahukura) 1.jpg",
     imageAlt: 'Red Admiral Butterfly (Kahukura)',
     dataAiHint: 'red admiral',
     name: 'Red Admiral Butterfly (Kahukura)',
@@ -508,7 +508,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-37',
-    imageSrc: '/images/stick-insect.jpg',
+    imageSrc: "/images/Stick Insect (Rō).jpg",
     imageAlt: 'Stick Insect (Rō)',
     dataAiHint: 'stick insect',
     name: 'Stick Insect (Rō)',
@@ -522,7 +522,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-38',
-    imageSrc: '/images/huhu-grub.jpg',
+    imageSrc: "/images/Huhu Grub 1.jpg",
     imageAlt: 'Huhu Grub',
     dataAiHint: 'huhu grub',
     name: 'Huhu Grub',
@@ -536,7 +536,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-39',
-    imageSrc: '/images/kaka.jpg',
+    imageSrc: "/images/Kākā.jpg",
     imageAlt: 'Kākā',
     dataAiHint: 'kaka parrot',
     name: 'Kākā',
@@ -550,7 +550,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-40',
-    imageSrc: '/images/kereru.jpg',
+    imageSrc: "/images/Kererū (New Zealand Pigeon).jpg",
     imageAlt: 'Kererū (New Zealand Pigeon)',
     dataAiHint: 'kereru pigeon',
     name: 'Kererū (New Zealand Pigeon)',
@@ -564,7 +564,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-41',
-    imageSrc: '/images/bellbird.jpg',
+    imageSrc: "/images/Bellbird (Korimako).jpg",
     imageAlt: 'Bellbird (Korimako)',
     dataAiHint: 'bellbird nz',
     name: 'Bellbird (Korimako)',
@@ -578,7 +578,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-42',
-    imageSrc: '/images/saddleback.jpg',
+    imageSrc: "/images/Saddleback (Tīeke).jpg",
     imageAlt: 'Saddleback (Tīeke)',
     dataAiHint: 'saddleback bird',
     name: 'Saddleback (Tīeke)',
@@ -592,7 +592,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-43',
-    imageSrc: '/images/stitchbird.jpg',
+    imageSrc: "/images/Stitchbird (Hihi) 1.jpg",
     imageAlt: 'Stitchbird (Hihi)',
     dataAiHint: 'stitchbird hihi',
     name: 'Stitchbird (Hihi)',
@@ -606,21 +606,21 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-44',
-    imageSrc: '/images/whitehead.jpg',
+    imageSrc: "/images/Whitehead (Pōpokotea).jpg",
     imageAlt: 'Whitehead (Pōpokotea)',
     dataAiHint: 'whitehead bird',
     name: 'Whitehead (Pōpokotea)',
     facts: [
       'A small, insectivorous forest bird endemic to the North Island of New Zealand.',
-      'Males have a completely white head and breast, while females are more grey-brown.',
+      "Males have a completely white head and breast, while females are more grey-brown.",
       'Often seen in flocks, foraging for insects in the forest canopy.',
-      'Closely related to the South Island\'s Yellowhead (Mōhua).',
+      "Closely related to the South Island's Yellowhead (Mōhua).",
     ],
     isFlagged: false,
   },
   {
     id: 'flora-fauna-45',
-    imageSrc: '/images/rifleman.jpg',
+    imageSrc: "/images/Rifleman (Tītipounamu).jpg",
     imageAlt: 'Rifleman (Tītipounamu)',
     dataAiHint: 'rifleman bird',
     name: 'Rifleman (Tītipounamu)',
@@ -634,7 +634,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-46',
-    imageSrc: '/images/tomtit.jpg',
+    imageSrc: "/images/Tomtit (Miromiro:Ngirungiru) 1.jpg",
     imageAlt: 'Tomtit (Miromiro/Ngirungiru)',
     dataAiHint: 'tomtit bird',
     name: 'Tomtit (Miromiro/Ngirungiru)',
@@ -648,7 +648,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-47',
-    imageSrc: '/images/nz-falcon.jpg',
+    imageSrc: "/images/New Zealand Falcon (Kārearea).jpeg",
     imageAlt: 'New Zealand Falcon (Kārearea)',
     dataAiHint: 'nz falcon',
     name: 'New Zealand Falcon (Kārearea)',
@@ -662,7 +662,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-48',
-    imageSrc: '/images/black-robin.jpg',
+    imageSrc: "/images/Black Robin (Kakaruia).jpg",
     imageAlt: 'Black Robin (Kakaruia)',
     dataAiHint: 'black robin',
     name: 'Black Robin (Kakaruia)',
@@ -676,7 +676,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-49',
-    imageSrc: '/images/takahe.jpg',
+    imageSrc: "/images/Takahē.jpg",
     imageAlt: 'Takahē',
     dataAiHint: 'takahe bird',
     name: 'Takahē',
@@ -690,7 +690,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-50',
-    imageSrc: '/images/weka.jpg',
+    imageSrc: "/images/weka.jpg",
     imageAlt: 'Weka',
     dataAiHint: 'weka bird',
     name: 'Weka',

@@ -54,19 +54,19 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
           )}
           style={{ transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)' }}
         >
-          <CardContent className="p-4 md:p-6 w-full h-full grid grid-rows-[1fr_auto]">
-            <div className="relative row-start-1 row-end-2 rounded-lg overflow-hidden min-h-0">
+          <CardContent className="p-4 md:p-6 w-full h-full flex flex-col">
+            <div className="relative flex-1 w-full h-full rounded-lg overflow-hidden">
               <Image
                 src={card.imageSrc || `https://placehold.co/600x400.png`}
                 alt={card.imageAlt}
                 fill
-                objectFit="contain"
+                className="object-contain"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 priority={currentIndex === 0} 
                 data-ai-hint={card.dataAiHint}
               />
             </div>
-            <div className="text-center flex-shrink-0 mt-4 row-start-2 row-end-3">
+            <div className="text-center flex-shrink-0 mt-4">
               <p className="text-sm text-muted-foreground">Tap card to reveal</p>
               {!showHint && (
                  <Button variant="ghost" size="sm" onClick={(e) => { e.stopPropagation(); setShowHint(true);}} className="mt-2 text-xs text-accent hover:text-accent-foreground">
