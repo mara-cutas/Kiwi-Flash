@@ -3,6 +3,7 @@ import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
   basePath: "/Kiwi-Flash",
+  assetPrefix: "/Kiwi-Flash/",
   output: "export",
   /* config options here */
   typescript: {
