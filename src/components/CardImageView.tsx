@@ -27,7 +27,7 @@ export function CardImageView({ src, alt }: CardImageViewProps) {
         alt={alt}
         fill
         className={cn(
-          "object-contain transition-opacity duration-500",
+          "object-contain transition-opacity duration-500 rounded-lg",
           isLoading ? "opacity-0" : "opacity-100"
         )}
         sizes="(max-width: 768px) 50vw, (max-width: 1200px) 25vw, 16vw"
