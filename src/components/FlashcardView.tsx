@@ -55,7 +55,7 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
           style={{ transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)' }}
         >
           <CardContent className="p-4 md:p-6 w-full h-full flex flex-col">
-            <div className="flex-1 flex flex-row gap-2 w-full h-full rounded-lg">
+             <div className="flex-1 flex flex-row gap-2 w-full h-full rounded-lg">
               {card.imageSrc.map((src) => (
                 <CardImageView key={src} src={src} alt={card.imageAlt} />
               ))}

@@ -15,7 +15,7 @@ export function CardImageView({ src, alt }: CardImageViewProps) {
   const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <div className="relative flex-1 min-h-0 rounded-lg overflow-hidden bg-muted/20">
+    <div className="relative w-full h-full rounded-lg overflow-hidden bg-muted/20">
       {isLoading && (
         <div className="absolute inset-0 flex items-center justify-center z-10">
           <Loader2 className="w-8 h-8 text-primary animate-spin" />
