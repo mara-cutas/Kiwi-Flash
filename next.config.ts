@@ -2,6 +2,8 @@
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
+  basePath: "/Kiwi-Flash",
+  output: "export",
   /* config options here */
   typescript: {
     ignoreBuildErrors: true,
@@ -10,16 +12,11 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 'placehold.co',
-        port: '',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'upload.wikimedia.org',
         port: '',
         pathname: '/**',
       }
