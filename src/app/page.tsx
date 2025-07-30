@@ -56,21 +56,6 @@ export default function HomePage() {
     });
   };
 
-  const handleFlagToggle = (id: string) => {
-    setDeck(prevDeck =>
-      prevDeck.map(card =>
-        card.id === id ? { ...card, isFlagged: !card.isFlagged } : card
-      )
-    );
-    const card = deck.find(c => c.id === id);
-    if (card) {
-        toast({
-            title: card.isFlagged ? "Card Unflagged" : "Card Flagged",
-            description: `${card.name} is now ${card.isFlagged ? "unflagged" : "flagged for review"}.`,
-        });
-    }
-  };
-  
   const handleResetDeck = () => {
     initializeDeck();
     toast({
@@ -114,7 +99,6 @@ export default function HomePage() {
         <div className="w-full mb-6">
             <FlashcardView 
                 card={currentCard} 
-                onFlagToggle={handleFlagToggle} 
                 totalCards={deck.length}
                 currentIndex={currentCardIndex}
             />

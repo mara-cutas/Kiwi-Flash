@@ -1,22 +1,21 @@
 
 "use client";
-// hi
+
 import type { Flashcard } from '@/types';
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Flag, RotateCcw, CheckCircle, ListChecks, Leaf, Footprints, Sprout } from 'lucide-react';
+import { RotateCcw, CheckCircle, ListChecks, Leaf, Footprints, Sprout } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { CardImageView } from './CardImageView';
 
 interface FlashcardViewProps {
   card: Flashcard;
-  onFlagToggle: (id: string) => void;
   totalCards: number;
   currentIndex: number;
 }
 
-export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: FlashcardViewProps) {
+export function FlashcardView({ card, totalCards, currentIndex }: FlashcardViewProps) {
   const [isFlipped, setIsFlipped] = useState(false);
   const [showHint, setShowHint] = useState(false);
 
@@ -55,7 +54,7 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
           style={{ transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)' }}
         >
           <CardContent className="p-4 md:p-6 w-full h-full flex flex-col">
-             <div className="flex-1 flex flex-row gap-2 w-full h-full rounded-lg">
+             <div className="flex-1 flex flex-row gap-2 w-full h-full rounded-lg min-h-0">
               {card.imageSrc.map((src) => (
                 <CardImageView key={src} src={src} alt={card.imageAlt} />
               ))}
@@ -98,24 +97,6 @@ export function FlashcardView({ card, onFlagToggle, totalCards, currentIndex }: 
         </Card>
       </div>
 
-      {/* Flag Button - Positioned outside the flipping mechanism for consistent access */}
-      <div className="mt-6 flex justify-center items-center">
-        <Button
-            variant={card.isFlagged ? "default" : "outline"}
-            size="lg"
-            onClick={(e) => {
-            e.stopPropagation(); 
-            onFlagToggle(card.id);
-            }}
-            className="group"
-        >
-            <Flag className={cn(
-                "mr-2 h-5 w-5",
-                card.isFlagged ? "fill-current text-primary-foreground" : "text-primary group-hover:fill-current group-hover:text-primary-foreground"
-            )} />
-            {card.isFlagged ? 'Flagged for Review' : 'Flag for Review'}
-        </Button>
-      </div>
       <style jsx global>{`
         .backface-hidden {
           -webkit-backface-visibility: hidden;

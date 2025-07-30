@@ -14,7 +14,6 @@ export const mockFlashcards: Flashcard[] =[
       'Uses its long beak with nostrils at the tip to sniff out insects and worms in the soil.',
       'There are five recognized species of kiwi.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-2',
@@ -28,7 +27,6 @@ export const mockFlashcards: Flashcard[] =[
       'A prominent national symbol of New Zealand, frequently used by sports teams and in official emblems.',
       'Can grow up to 10 meters (33 feet) high.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-3',
@@ -42,7 +40,6 @@ export const mockFlashcards: Flashcard[] =[
       'Features a distinctive white tuft of feathers at its throat, called a "poi".',
       'Plays an important role in pollination by feeding on nectar.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-4',
@@ -56,7 +53,6 @@ export const mockFlashcards: Flashcard[] =[
       'Highly resilient, capable of growing in rocky cliffs and tolerating salt spray.',
       'Holds cultural significance in Māori traditions and mythology.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-5',
@@ -70,7 +66,6 @@ export const mockFlashcards: Flashcard[] =[
       'The Māui dolphin, found off the west coast of the North Island, is a critically endangered subspecies.',
       'Typically found in shallow waters close to shore.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-6',
@@ -84,7 +79,6 @@ export const mockFlashcards: Flashcard[] =[
       'Valued for its high-quality timber and kauri gum (a resin).',
       'Currently threatened by kauri dieback disease.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-7',
@@ -98,7 +92,6 @@ export const mockFlashcards: Flashcard[] =[
       'Has olive-green plumage with brilliant orange underwings.',
       'An endangered species facing threats from predators and human conflict.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-8',
@@ -112,7 +105,6 @@ export const mockFlashcards: Flashcard[] =[
       'Primarily feeds on large insects, but also small birds, rats, and mice.',
       'Culturally significant in Māori tradition, often seen as a watchful guardian.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-9',
@@ -126,7 +118,6 @@ export const mockFlashcards: Flashcard[] =[
       'Nocturnal and typically found in forests, caves, and grasslands.',
       'Play an important role in seed dispersal.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-10',
@@ -140,7 +131,6 @@ export const mockFlashcards: Flashcard[] =[
       'Possess a "third eye" (parietal eye) on the top of their head, sensitive to light.',
       'Can live for over 100 years.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-11',
@@ -154,7 +144,6 @@ export const mockFlashcards: Flashcard[] =[
       'Known for its distinctive "booming" mating call made by males.',
       'Intensive conservation efforts are underway to save the species.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-12',
@@ -168,7 +157,6 @@ export const mockFlashcards: Flashcard[] =[
       'Comes in two main color forms: pied and black.',
       'Its Māori name, Pīwakawaka, is onomatopoeic, resembling its chirpy call.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-13',
@@ -182,7 +170,6 @@ export const mockFlashcards: Flashcard[] =[
       'Known for its bold and inquisitive nature.',
       'While native, it is also found in Australia and other parts of the Pacific.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-14',
@@ -196,7 +183,6 @@ export const mockFlashcards: Flashcard[] =[
       'One of the rarest penguin species in the world.',
       'Nests in coastal forests and scrub, rather than large colonies.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-15',
@@ -210,7 +196,6 @@ export const mockFlashcards: Flashcard[] =[
       'Often come ashore in groups at dusk, a phenomenon known as a "penguin parade" in some locations.',
       'Average height is around 25 cm (10 inches).',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-16',
@@ -224,7 +209,6 @@ export const mockFlashcards: Flashcard[] =[
       'Mānuka honey is renowned for its unique antibacterial properties.',
       'The wood is hard and durable, historically used for tool handles.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-17',
@@ -238,7 +222,6 @@ export const mockFlashcards: Flashcard[] =[
       'The name "kōwhai" means yellow in Māori.',
       'Its flowers are an important food source for birds like Tūī and Bellbirds.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-18',
@@ -252,7 +235,6 @@ export const mockFlashcards: Flashcard[] =[
       'Extremely important in Māori culture for weaving (raranga) clothes, baskets, and ropes.',
       'Produces nectar-rich flowers that attract birds.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-19',
@@ -266,7 +248,6 @@ export const mockFlashcards: Flashcard[] =[
       'The young inner leaves were historically a food source for Māori.',
       'Highly adaptable and found in a wide range of habitats.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-20',
@@ -280,7 +261,6 @@ export const mockFlashcards: Flashcard[] =[
       "The southernmost naturally occurring palm in the world.",
       'The heart of the palm (kōrito) was a traditional Māori food.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-21',
@@ -294,7 +274,6 @@ export const mockFlashcards: Flashcard[] =[
       'Recognizable by its drooping foliage and distinctive bark.',
       'Historically a prized timber tree, now largely protected.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-22',
@@ -308,7 +287,6 @@ export const mockFlashcards: Flashcard[] =[
       'Can live for over 1,000 years.',
       'Has reddish-brown, stringy bark.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-23',
@@ -322,7 +300,6 @@ export const mockFlashcards: Flashcard[] =[
       'Produces small, fleshy, dark purple fruits that are food for native birds.',
       'The wood is hard and durable, used for flooring and furniture.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-24',
@@ -336,7 +313,6 @@ export const mockFlashcards: Flashcard[] =[
       'Mature trees have a straight trunk and a crown of fine, feathery foliage.',
       'Historically, its light, odorless wood was used for butter boxes.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-25',
@@ -350,7 +326,6 @@ export const mockFlashcards: Flashcard[] =[
       'Were hunted to near extinction in the 19th century but have since recovered.',
       'Feed mainly on squid and small fish.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-26',
@@ -364,7 +339,6 @@ export const mockFlashcards: Flashcard[] =[
       'Main breeding colonies are in the subantarctic Auckland and Campbell Islands.',
       'Critically endangered due to disease, fishing bycatch, and habitat changes.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-27',
@@ -378,7 +352,6 @@ export const mockFlashcards: Flashcard[] =[
       'Undertake a remarkable migration to the Pacific Ocean to breed, after which they die.',
       'Culturally significant to Māori and an important traditional food source.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-28',
@@ -392,7 +365,6 @@ export const mockFlashcards: Flashcard[] =[
       'Nocturnal and prefers slow-moving waters with good cover like logs and undercut banks.',
       'Their populations have declined due to habitat loss and barriers to migration.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-29',
@@ -406,7 +378,6 @@ export const mockFlashcards: Flashcard[] =[
       'Several species are critically endangered due to wetland drainage.',
       'Lack scales, similar to eels.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-30',
@@ -420,7 +391,6 @@ export const mockFlashcards: Flashcard[] =[
       'They do not croak and lack external eardrums.',
       'Typically found near streams in native forests.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-31',
@@ -434,7 +404,6 @@ export const mockFlashcards: Flashcard[] =[
       'Terrestrial, living in damp forest environments, often at higher altitudes.',
       'Highly susceptible to the chytrid fungus, a global threat to amphibians.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-32',
@@ -448,7 +417,6 @@ export const mockFlashcards: Flashcard[] =[
       'They feed primarily on earthworms and slugs.',
       'Many species are endangered due to habitat destruction and predation by introduced mammals.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-33',
@@ -462,7 +430,6 @@ export const mockFlashcards: Flashcard[] =[
       'Capture prey (small invertebrates) by squirting a sticky slime.',
       'Found in damp, dark habitats like under logs and leaf litter.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-34',
@@ -476,7 +443,6 @@ export const mockFlashcards: Flashcard[] =[
       'The caterpillars live in tunnels in the Pūriri tree, taking several years to mature.',
       'Adult moths do not feed and live only for a few days to mate.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-35',
@@ -490,7 +456,6 @@ export const mockFlashcards: Flashcard[] =[
       'Known for their long-distance seasonal migration in North America, though NZ Monarchs do not undertake such large-scale migrations.',
       'Bright orange and black wings serve as a warning to predators of their toxicity.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-36',
@@ -504,7 +469,6 @@ export const mockFlashcards: Flashcard[] =[
       'Caterpillars feed primarily on native nettle species (ongaonga).',
       'Can be seen year-round in warmer parts of New Zealand.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-37',
@@ -518,7 +482,6 @@ export const mockFlashcards: Flashcard[] =[
       'Herbivorous, feeding on the leaves of various native plants.',
       'Some species can reproduce parthenogenetically (females producing offspring without mating).',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-38',
@@ -532,7 +495,6 @@ export const mockFlashcards: Flashcard[] =[
       'A traditional Māori food, said to taste like peanut butter when cooked.',
       'The adult Huhu beetle is a strong flier and is attracted to lights at night.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-39',
@@ -546,7 +508,6 @@ export const mockFlashcards: Flashcard[] =[
       'Highly intelligent and playful, often interacting with humans in areas where they are common.',
       'Feeds on fruits, seeds, nectar, and insects.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-40',
@@ -560,7 +521,6 @@ export const mockFlashcards: Flashcard[] =[
       'Known for its clumsy landings and the whooshing sound of its wingbeats.',
       'Protected, as its numbers declined significantly due to hunting and habitat loss.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-41',
@@ -574,7 +534,6 @@ export const mockFlashcards: Flashcard[] =[
       'Males are olive-green with a purplish head, while females are duller brown.',
       'Important pollinators of native plants.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-42',
@@ -588,7 +547,6 @@ export const mockFlashcards: Flashcard[] =[
       'Poor fliers, making them vulnerable to introduced predators.',
       'Conservation efforts on predator-free islands have helped save them from extinction.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-43',
@@ -602,7 +560,6 @@ export const mockFlashcards: Flashcard[] =[
       'Its name "Hihi" means "rays of the sun".',
       'Faces threats from habitat loss and predators, and survives mainly on predator-free islands.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-44',
@@ -616,7 +573,6 @@ export const mockFlashcards: Flashcard[] =[
       'Often seen in flocks, foraging for insects in the forest canopy.',
       "Closely related to the South Island\\'s Yellowhead (Mōhua).",
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-45',
@@ -630,7 +586,6 @@ export const mockFlashcards: Flashcard[] =[
       'Found in native forests, often creeping up tree trunks and branches in search of insects.',
       'Its Māori name, Tītipounamu, refers to its small size and green color, similar to pounamu (greenstone).',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-46',
@@ -644,7 +599,6 @@ export const mockFlashcards: Flashcard[] =[
       'Feeds on insects, often catching them on the wing.',
       'Its cheerful song is a common sound in the New Zealand bush.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-47',
@@ -658,7 +612,6 @@ export const mockFlashcards: Flashcard[] =[
       'Can be found in various habitats, from forests to open country.',
       'Its Māori name, Kārearea, reflects its swift and darting flight.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-48',
@@ -672,7 +625,6 @@ export const mockFlashcards: Flashcard[] =[
       'Characterized by its entirely black plumage.',
       'Its survival is a testament to dedicated conservation work.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-49',
@@ -686,7 +638,6 @@ export const mockFlashcards: Flashcard[] =[
       'Found in alpine tussock grasslands and forested areas.',
       'Ongoing conservation efforts are focused on protecting and expanding their small population.',
     ],
-    isFlagged: false,
   },
   {
     id: 'flora-fauna-50',
@@ -700,6 +651,5 @@ export const mockFlashcards: Flashcard[] =[
       'Has brown, mottled plumage, providing camouflage.',
       'Omnivorous, with a diet including insects, lizards, eggs, and fruit.',
     ],
-    isFlagged: false,
   },
 ];

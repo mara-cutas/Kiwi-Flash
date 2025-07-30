@@ -5,5 +5,4 @@ export type Flashcard = {
   dataAiHint: string;
   name: string;
   facts: string[];
-  isFlagged: boolean;
 };
