@@ -69,7 +69,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-6',
-    imageSrc: ["images/Kauri Tree.jpeg"],
+    imageSrc: ["images/Kauri Tree.jpg"],
     imageAlt: 'Kauri Tree',
     dataAiHint: 'kauri tree',
     name: 'Kauri Tree',
@@ -420,7 +420,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-33',
-    imageSrc: ["images/Peripatus (Velvet Worm) 1.png", "images/Peripatus (Velvet Worm) 2.jpg"],
+    imageSrc: ["images/Peripatus (Velvet Worm) 1.jpg", "images/Peripatus (Velvet Worm) 2.jpg"],
     imageAlt: 'Peripatus (Velvet Worm)',
     dataAiHint: 'velvet worm',
     name: 'Peripatus (Velvet Worm)',
@@ -485,7 +485,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-38',
-    imageSrc: ["images/Huhu Grub 1.jpg", "images/Huhu Grub 2.png", "images/Huhu Grub 3.png"],
+    imageSrc: ["images/Huhu Grub 1.jpg", "images/Huhu Grub 2.jpg", "images/Huhu Grub 3.jpg"],
     imageAlt: 'Huhu Grub',
     dataAiHint: 'huhu grub',
     name: 'Huhu Grub',
@@ -602,7 +602,7 @@ export const mockFlashcards: Flashcard[] =[
   },
   {
     id: 'flora-fauna-47',
-    imageSrc: ["images/New Zealand Falcon (Kārearea).jpeg"],
+    imageSrc: ["images/New Zealand Falcon (Kārearea).jpg"],
     imageAlt: 'New Zealand Falcon (Kārearea)',
     dataAiHint: 'nz falcon',
     name: 'New Zealand Falcon (Kārearea)',
