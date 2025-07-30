@@ -121,6 +121,17 @@ export default function HomePage() {
                 Next <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             </div>
+             <div className="text-center text-sm text-muted-foreground mt-6">
+                Made by Mara Cutas -{' '}
+                <a
+                    href="https://www.linkedin.com/in/mara-cutas/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline hover:text-primary"
+                >
+                    LinkedIn
+                </a>
+            </div>
         </div>
       </footer>
     </div>
