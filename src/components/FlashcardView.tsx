@@ -82,7 +82,7 @@ export function FlashcardView({ card, totalCards, currentIndex }: FlashcardViewP
         >
           <CardContent className="p-4 md:p-6 w-full h-full flex flex-col text-left overflow-y-auto">
             <h2 className="text-2xl md:text-3xl font-bold text-primary mb-3 md:mb-4 text-center">{card.name}</h2>
-            <ul className="space-y-2 md:space-y-3 text-sm md:text-base text-card-foreground">
+            <ul className="space-y-2 md:space-y-3 text-sm md:text-base text-card-foreground flex-grow">
               {card.facts.map((fact, index) => {
                 const IconComponent = getFactIcon(index);
                 return (
@@ -93,6 +93,11 @@ export function FlashcardView({ card, totalCards, currentIndex }: FlashcardViewP
                 );
               })}
             </ul>
+             <div className="mt-4 text-right">
+                <p className="text-xs text-muted-foreground/80 italic">
+                    Images sourced from Wikipedia.
+                </p>
+            </div>
           </CardContent>
         </Card>
       </div>
