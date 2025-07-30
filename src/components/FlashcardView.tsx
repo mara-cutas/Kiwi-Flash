@@ -5,7 +5,7 @@ import type { Flashcard } from '@/types';
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { RotateCcw, CheckCircle, ListChecks, Leaf, Footprints, Sprout } from 'lucide-react';
+import { RotateCcw, CheckCircle, ListChecks, Leaf, Footprints, Sprout, Search } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { CardImageView } from './CardImageView';
 
@@ -35,6 +35,8 @@ export function FlashcardView({ card, totalCards, currentIndex }: FlashcardViewP
     const icons = [Leaf, Footprints, Sprout, CheckCircle, ListChecks];
     return icons[index % icons.length];
   };
+
+  const learnMoreUrl = `https://www.google.com/search?q=${encodeURIComponent(card.name + " new zealand")}`;
 
   return (
     <div className="w-full max-w-xl mx-auto">
@@ -93,8 +95,14 @@ export function FlashcardView({ card, totalCards, currentIndex }: FlashcardViewP
                 );
               })}
             </ul>
-             <div className="mt-4 text-right">
-                <p className="text-xs text-muted-foreground/80 italic">
+             <div className="mt-4 flex justify-between items-end">
+                <Button asChild variant="outline" size="sm" onClick={(e) => e.stopPropagation()}>
+                    <a href={learnMoreUrl} target="_blank" rel="noopener noreferrer">
+                        <Search className="mr-2 h-4 w-4" />
+                        Learn More
+                    </a>
+                </Button>
+                <p className="text-xs text-muted-foreground/80 italic text-right">
                     Images sourced from Wikipedia.
                 </p>
             </div>
