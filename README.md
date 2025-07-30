@@ -2,6 +2,8 @@
 
 **[➡️ Live Demo: Explore Kiwi Flash Here](https://mara-cutas.github.io/Kiwi-Flash/)**
 
+![kiwi-flash.gif](kiwi-flash.gif)
+
 ## Project Vision
 
 As a passionate advocate for wildlife conservation, I've always been driven by a deep curiosity about the natural world. This project, Kiwi Flash, was born from a personal desire to deepen my own knowledge of New Zealand's unique and precious flora and fauna. It's a simple, interactive flashcard application designed to make learning about these species both engaging and accessible.
